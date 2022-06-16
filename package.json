@@ -4,6 +4,9 @@
   "description": "React UI component for building Kudoku.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
