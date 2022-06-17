@@ -8,29 +8,33 @@ export default {
   component: KudokuLogo,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
-    label: {
-      name: 'label',
-      type: { name: 'string', required: false },
-      defaultValue: 'Hello',
-      description: 'demo description',
-      table: {
-        type: { summary: 'string' },
-        defaultValue: { summary: 'Hello' },
-      },
-      control: {
-        type: 'text'
-      }
-    }
+    variant: {
+      options: ['primary', 'secondary', 'variant1', 'variant2'],
+      control: { type: 'radio' },
+    },
   },
 };
-
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template = (args) => <KudokuLogo {...args} />;
 
-
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-export const placeholder = Template.bind({});
-placeholder.args = {
-  variant: 'secondary'
+export const Primary = Template.bind({});
+Primary.args = {
+  variant: 'primary',
+};
+
+export const Secondary = Template.bind({});
+Secondary.args = {
+  variant: 'secondary',
+};
+
+export const Variant1 = Template.bind({});
+Variant1.args = {
+  variant: 'variant1',
+};
+
+export const Variant2 = Template.bind({});
+Variant2.args = {
+  variant: 'variant2',
 };
