@@ -34,6 +34,7 @@
     "@storybook/manager-webpack4": "^6.5.9",
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
+    "axios": "^0.27.2",
     "babel-loader": "^8.2.5",
     "glob-parent": ">=5.1.2",
     "postcss": "^8.1.9",
