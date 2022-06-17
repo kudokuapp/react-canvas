@@ -26,9 +26,9 @@ For example, for our **OTPPlaceholder** component, the file structure is:
 src
 └── components/
     └── OTPPlaceholder/
-        ├── **index.js**
-        │   **OTPPlaceholder.jsx**
-        └── **OTPPlaceholder.css**
+        ├── index.js
+        │   OTPPlaceholder.jsx
+        └── OTPPlaceholder.css
 ```
 
 The most important file is the `index.js` file.
@@ -61,4 +61,4 @@ After loging in using `npm login` in the command line, simply type
 npm publish
 ```
 
-Please note that we have to semantically update the version of our package in `package.json`s
+Please note that we have to semantically update the version of our package in `package.json`.
