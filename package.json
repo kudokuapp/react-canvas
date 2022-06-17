@@ -1,5 +1,5 @@
 {
-  "name": "kudoku-react-canvas",
+  "name": "@kudokuapp/react-canvas",
   "version": "1.0.0",
   "description": "React UI component for building Kudoku.",
   "main": "dist/index.js",

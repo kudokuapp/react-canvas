@@ -4,7 +4,7 @@ import { OTPPlaceholder } from '../components/OTPPlaceholder';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Component/kudoku.id/OTP Placeholder',
+  title: 'Component/OTP Placeholder',
   component: OTPPlaceholder,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
