@@ -1,7 +1,7 @@
 {
   "name": "react-canvas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Codesandbox for github.com/kudokuapp/react-canvas",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "publishConfig": {
