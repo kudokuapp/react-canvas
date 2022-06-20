@@ -1,4 +1,5 @@
 import React from 'react';
+import { withDesign } from "storybook-addon-designs";
 
 import { KudokuLogo } from '../primitives/KudokuLogo';
 
@@ -6,6 +7,7 @@ import { KudokuLogo } from '../primitives/KudokuLogo';
 export default {
   title: 'Primitives/Kudoku Logo',
   component: KudokuLogo,
+  decorators: [withDesign],
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     variant: {
@@ -37,4 +39,12 @@ Variant1.args = {
 export const Variant2 = Template.bind({});
 Variant2.args = {
   variant: 'variant2',
+};
+
+
+Primary.parameters = {
+  design: {
+    type: "figma",
+    url: "https://www.figma.com/file/n6Sqzg6fE0JIBbAPys2r9X/Primitives?node-id=333%3A196",
+  },
 };
