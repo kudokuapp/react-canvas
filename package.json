@@ -1,7 +1,7 @@
 {
-  "name": "@kudokuapp/react-canvas",
+  "name": "react-canvas",
   "version": "1.0.0",
-  "description": "React UI component for building Kudoku.",
+  "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "publishConfig": {
@@ -9,6 +9,7 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
+    "start": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build-lib": "rollup -c",
     "deploy-storybook": "storybook-to-ghpages"
@@ -55,5 +56,6 @@
   "peerDependencies": {
     "react": ">=^18.2.0",
     "react-dom": ">=^18.2.0"
-  }
+  },
+  "keywords": []
 }
