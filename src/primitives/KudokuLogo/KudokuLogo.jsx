@@ -1,12 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 /**
  * This is the Kudoku Logo. Please use accordingly.
+ * The component will return the svg of our logo.
  */
 
-export const KudokuLogo = ({ variant = 'primary' }) => {
-  if (variant === 'primary') {
+export const KudokuLogo = ({ variant = "primary" }) => {
+  if (variant === "primary") {
     return (
       <svg
         width="192"
@@ -25,7 +26,7 @@ export const KudokuLogo = ({ variant = 'primary' }) => {
         />
       </svg>
     );
-  } else if (variant === 'secondary') {
+  } else if (variant === "secondary") {
     return (
       <svg
         width="500"
@@ -60,7 +61,7 @@ export const KudokuLogo = ({ variant = 'primary' }) => {
         />
       </svg>
     );
-  } else if (variant === 'variant1') {
+  } else if (variant === "variant1") {
     return (
       <svg
         width="192"
@@ -115,7 +116,7 @@ export const KudokuLogo = ({ variant = 'primary' }) => {
         </defs>
       </svg>
     );
-  } else if (variant === 'variant2') {
+  } else if (variant === "variant2") {
     return (
       <svg
         width="910"
@@ -165,5 +166,5 @@ KudokuLogo.propTypes = {
   /**
    * Which type of logo?
    */
-  variant: PropTypes.oneOf(['primary', 'secondary', 'variant1', 'variant2']),
+  variant: PropTypes.oneOf(["primary", "secondary", "variant1", "variant2"])
 };

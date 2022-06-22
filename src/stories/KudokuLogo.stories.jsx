@@ -45,6 +45,30 @@ Primary.parameters = {
   design: {
     type: "figma",
     url:
-      "https://www.figma.com/file/n6Sqzg6fE0JIBbAPys2r9X/Primitives?node-id=333%3A196"
+      "https://www.figma.com/file/n6Sqzg6fE0JIBbAPys2r9X/Primitives?node-id=358%3A247"
+  }
+};
+
+Secondary.parameters = {
+  design: {
+    type: "figma",
+    url:
+      "https://www.figma.com/file/n6Sqzg6fE0JIBbAPys2r9X/Primitives?node-id=358%3A245"
+  }
+};
+
+Variant1.parameters = {
+  design: {
+    type: "figma",
+    url:
+      "https://www.figma.com/file/n6Sqzg6fE0JIBbAPys2r9X/Primitives?node-id=358%3A243"
+  }
+};
+
+Variant2.parameters = {
+  design: {
+    type: "figma",
+    url:
+      "https://www.figma.com/file/n6Sqzg6fE0JIBbAPys2r9X/Primitives?node-id=358%3A241"
   }
 };
