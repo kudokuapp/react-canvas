@@ -1,19 +1,27 @@
 import React from "react";
 import { withDesign } from "storybook-addon-designs";
 
-import { Switch } from "../components/Switch";
+import { MaterialUISwitch } from "../components/Switch";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Components/Switch",
-  component: Switch,
-  decorators: [withDesign]
+  component: MaterialUISwitch,
+  decorators: [withDesign],
+  argTypes: {
+    variant: {}
+  }
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-export const switchComponent = () => <Switch />;
+const Template = (args) => <MaterialUISwitch {...args} />;
 
-switchComponent.parameters = {
+export const Primary = Template.bind({});
+Primary.args = {
+  variant: "primary"
+};
+
+Primary.parameters = {
   design: {
     type: "figma",
     url:

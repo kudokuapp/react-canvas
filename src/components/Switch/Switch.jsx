@@ -2,9 +2,9 @@ import React from "react";
 // import { styled } from "@mui/material/styles";
 import "./Switch.css";
 import { styled } from "@mui/material/styles";
-const MaterialUISwitch = require("@mui/material/Switch");
+import Switch from "@mui/material/switch";
 
-export const Switch = styled(MaterialUISwitch)(({ theme }) => ({
+export const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   width: 62,
   height: 34,
   padding: 7,
