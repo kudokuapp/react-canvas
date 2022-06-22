@@ -27,6 +27,8 @@
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-react": "^7.17.12",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@mui/material": "^5.8.5",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@storybook/addon-actions": "^6.5.9",
