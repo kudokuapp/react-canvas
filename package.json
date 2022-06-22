@@ -1,7 +1,7 @@
 {
-  "name": "react-canvas",
+  "name": "@kudokuapp/react-canvas",
   "version": "1.0.0",
-  "description": "Codesandbox for github.com/kudokuapp/react-canvas",
+  "description": "React Component for Kudoku",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "publishConfig": {
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-react": "^7.17.12",
+    "@mui/material": "^5.8.5",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
